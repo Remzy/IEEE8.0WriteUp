@@ -1,0 +1,7 @@
+#Python3 version
+x = input()
+x = [int(i) for i in input().split()]
+nb = int(input())
+nb = pow(2,nb)
+total = (nb*sum(x))%(pow(10,9)+7)
+print (total)
